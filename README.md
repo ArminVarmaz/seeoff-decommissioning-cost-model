@@ -1,5 +1,6 @@
 # SeeOff decommissioning cost model (simplified)
 [![DOI](https://zenodo.org/badge/1447232035.svg)](https://doi.org/10.5281/zenodo.23984813)
+
 Simplified MATLAB implementation of the process-based Monte Carlo cost model in
 
 Varmaz, A. (2026). Process-based Monte Carlo cost simulation for offshore wind farm
