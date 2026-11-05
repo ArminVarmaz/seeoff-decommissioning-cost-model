@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "SeeOff decommissioning cost model (simplified)"
+authors:
+  - family-names: Varmaz
+    given-names: Armin
+    orcid: "https://orcid.org/0000-0001-6879-313X"
+    affiliation: "Hochschule Bremen"
+license: CC-BY-NC-4.0
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Varmaz
+      given-names: Armin
+      orcid: "https://orcid.org/0000-0001-6879-313X"
+  title: "Process-based Monte Carlo cost simulation for offshore wind farm decommissioning: A scenario analysis for the German North Sea"
+  journal: "Renewable Energy"
+  year: 2026
+  doi: "10.1016/j.renene.2026.126679"
