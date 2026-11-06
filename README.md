@@ -1,7 +1,7 @@
 # SeeOff decommissioning cost model (simplified)
-[![DOI](https://zenodo.org/badge/1447232035.svg)](https://doi.org/10.5281/zenodo.23984813)
 
-Simplified MATLAB implementation of the process-based Monte Carlo cost model in
+Simplified MATLAB implementation (with a Python translation) of the process-based
+Monte Carlo cost model in
 
 Varmaz, A. (2026). Process-based Monte Carlo cost simulation for offshore wind farm
 decommissioning: A scenario analysis for the German North Sea. *Renewable Energy*.
@@ -61,6 +61,13 @@ needed. `readcell` and `writecell` require MATLAB R2019a or later.
 the `io` package for reading Excel files (`pkg install -forge io`). Start Octave in
 the folder `matlab` and run `b0_Main`. Under Octave, the result tables are written as
 CSV files instead of an Excel workbook.
+
+**Python.** `python/seeoff_model.py` is a translation of the MATLAB code into one
+file. It needs Python 3.10 or later and the packages in `python/requirements.txt`
+(`pip install -r python/requirements.txt`). Run `python python/seeoff_model.py`
+or pass another workbook as argument. The MATLAB code is the benchmark: both versions
+use the same algorithm and give the same results up to Monte Carlo noise, because
+the random number generators differ.
 
 The code is written for clarity, not for speed. One run with 100,000 draws takes a
 few seconds.
